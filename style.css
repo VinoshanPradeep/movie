@@ -1,0 +1,35 @@
+body{
+  background: hotpink;
+}
+.menu{
+    list-style: none;
+    color: yellow;
+    font-family: monospace;
+    position: fixed;
+    top: 0px;
+    right: 50px;
+    z-index: 999;
+    cursor:pointer;
+    background:#00ff00; 
+}
+.line{
+    height: 10px;
+    background-color:red;
+    width: 70px;
+    margin: 8px auto;
+}
+.links{
+    float: left;
+    color: yellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: inherit;
+    font-size: 20px;
+    margin-top: 5;
+    color: cyan;
+}
+a{
+    color: white;
+}
